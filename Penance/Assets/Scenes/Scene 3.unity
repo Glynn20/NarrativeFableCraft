@@ -1020,6 +1020,9 @@ GameObject:
   - component: {fileID: 678829829}
   - component: {fileID: 678829828}
   - component: {fileID: 678829815}
+  - component: {fileID: 678829831}
+  - component: {fileID: 678829832}
+  - component: {fileID: 678829830}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1280,9 +1283,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 33.93982
-    y: 112.43539
-    width: 176.92297
+    x: 32.673996
+    y: 111.16956
+    width: 174.0506
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1348,6 +1351,7 @@ MonoBehaviour:
   - {fileID: 678829756}
   - {fileID: 678829744}
   - {fileID: 678829743}
+  - {fileID: 678829832}
   - {fileID: 678829754}
   - {fileID: 678829755}
   - {fileID: 678829753}
@@ -1355,6 +1359,7 @@ MonoBehaviour:
   - {fileID: 678829799}
   - {fileID: 678829761}
   - {fileID: 678829760}
+  - {fileID: 678829830}
   - {fileID: 678829749}
   - {fileID: 678829750}
   - {fileID: 678829759}
@@ -1991,7 +1996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.550247
     y: 13.304406
-    width: 128.84608
+    width: 124.683525
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2053,11 +2058,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 307.04385, y: 54.83914}
+  scrollPos: {x: 179.88597, y: 32.113182}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
-  zoom: 0.52000046
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3526,8 +3531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: Wrong. It's me.  {w=0.5} I'm in control now. I'm not as weak as you
-    think, old man.
+  storyText: No, stop. It's me.  {w=0.5} I'm in control now, not Hades. I'm not as
+    weak as you think, old man.
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -3554,7 +3559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: STAND BACK! It's Hades. Peter's been possessed by Hades!
+  storyText: EVERYONE STAND BACK! It's Hades. Peter's been possessed!
   description: 
   character: {fileID: 548368494}
   portrait: {fileID: 0}
@@ -3581,7 +3586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 0
-  storyText: What the? Pete? You're... {w=0.5} glowing!
+  storyText: What the? Pete? Dude you're... {w=0.5} glowing!
   description: 
   character: {fileID: 876109713}
   portrait: {fileID: 0}
@@ -3692,9 +3697,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 23.848898
-    y: 187.08568
-    width: 198.0768
+    x: 25.11472
+    y: 204.8072
+    width: 186.70883
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4158,9 +4163,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -100.72806
+    x: -103.259705
     y: 266.9354
-    width: 107.69226
+    width: 106.962006
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4192,9 +4197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.27194
-    y: 270.9354
-    width: 76.92305
+    x: 241.60106
+    y: 264.60635
+    width: 75.31645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4209,6 +4214,7 @@ MonoBehaviour:
   - {fileID: 678829820}
   - {fileID: 678829819}
   - {fileID: 678829816}
+  - {fileID: 678829831}
   - {fileID: 678829827}
   - {fileID: 678829826}
   - {fileID: 678829814}
@@ -4306,7 +4312,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   storyText: Don't worry about me. I'm fine. {w=0.5} Well, honestly I feel more than
-    fine right now haha!
+    fine right now!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -4683,7 +4689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: Hold on Peter. You're not hurt at all are youl? An expendature of that
+  storyText: Hold on Peter. You're not hurt at all are you? An expendature of that
     much energy at once could be quite dangerous.
   description: 
   character: {fileID: 548368494}
@@ -4765,7 +4771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: Oh my God! He's so cute! Can I pet him?
+  storyText: Oh my God! How did you...
   description: 
   character: {fileID: 87642046}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -5060,7 +5066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: 'Ohohoho no way! '
+  storyText: 'Ohohoho {w=0.5} no way! '
   description: 
   character: {fileID: 876109713}
   portrait: {fileID: 21300000, guid: 8c30a22023b7a8e4c96a391a28e74b5e, type: 3}
@@ -5127,6 +5133,64 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &678829830
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+--- !u!114 &678829831
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  indentLevel: 0
+  storyText: Nevermind that. He's so cute! Can I pet him?
+  description: 
+  character: {fileID: 87642046}
+  portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &678829832
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 5272b0277bb87e54a80e019d15e94135, type: 3}
+  volume: 0.2
+  loop: 1
 --- !u!1 &797493310
 GameObject:
   m_ObjectHideFlags: 0
