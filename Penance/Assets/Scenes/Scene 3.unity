@@ -960,7 +960,6 @@ GameObject:
   - component: {fileID: 678829777}
   - component: {fileID: 678829776}
   - component: {fileID: 678829775}
-  - component: {fileID: 678829774}
   - component: {fileID: 678829773}
   - component: {fileID: 678829772}
   - component: {fileID: 678829771}
@@ -1023,6 +1022,10 @@ GameObject:
   - component: {fileID: 678829831}
   - component: {fileID: 678829832}
   - component: {fileID: 678829830}
+  - component: {fileID: 678829835}
+  - component: {fileID: 678829834}
+  - component: {fileID: 678829833}
+  - component: {fileID: 678829774}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1284,8 +1287,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 32.673996
-    y: 111.16956
-    width: 174.0506
+    y: 109.24649
+    width: 176.92297
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1372,7 +1375,7 @@ MonoBehaviour:
   - {fileID: 678829765}
   - {fileID: 678829764}
   - {fileID: 678829777}
-  - {fileID: 678829774}
+  - {fileID: 678829835}
   - {fileID: 678829779}
   suppressAllAutoSelections: 0
 --- !u!114 &678829689
@@ -1996,7 +1999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.550247
     y: 13.304406
-    width: 124.683525
+    width: 128.84608
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2058,19 +2061,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 179.88597, y: 32.113182}
+  scrollPos: {x: 274.84018, y: 61.92765}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 404
-  zoom: 0.7900002
+  blockViewHeight: 280
+  zoom: 0.52000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 678829776}
+  selectedCommands:
+  - {fileID: 678829771}
   variables: []
   description: 
   stepPause: 0
@@ -2850,8 +2855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: I may fail time and time again, {w=0.5} but when I do, I make sure I
-    pick myself back up and do it all over again!
+  storyText: If anything, {w=0.5} you're the one who's pathetic!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -2878,7 +2882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: To have everyone count on you {w=0.5} only to fail over and over again.
+  storyText: To have everyone count on you {w=0.5} only to fail them over and over
+    again.
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -3197,7 +3202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: Don't you think I'm trying!? Do you think i meant to hurt Crystal!?
+  storyText: '{w=0.5}Don''t you think I''m trying!? Do you really think I meant to
+    hurt Crystal!?'
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -3359,7 +3365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: Hahahah! Who's pathetic now, Titus?
+  storyText: Who's pathetic now, Titus? You wanted to see these stupid powers? There
+    you go!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -3563,7 +3570,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 548368494}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: dd23b9bc8a2ab1947a427414b77085d0, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3638,13 +3645,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 108
+  itemId: 176
   indentLevel: 0
-  storyText: 
+  storyText: Almost like fireflies...
   description: 
-  character: {fileID: 117663451}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 8acd18a4ca618f540b8a57035c1a5f64, type: 3}
+  character: {fileID: 87642046}
+  portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3699,7 +3706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25.11472
     y: 204.8072
-    width: 186.70883
+    width: 198.0768
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4165,7 +4172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -103.259705
     y: 266.9354
-    width: 106.962006
+    width: 107.69226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4181,6 +4188,7 @@ MonoBehaviour:
   - {fileID: 678829821}
   - {fileID: 678829829}
   - {fileID: 678829828}
+  - {fileID: 678829774}
   - {fileID: 678829815}
   suppressAllAutoSelections: 0
 --- !u!114 &678829796
@@ -4197,9 +4205,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 241.60106
-    y: 264.60635
-    width: 75.31645
+    x: 251.21646
+    y: 262.6833
+    width: 76.92305
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4215,6 +4223,8 @@ MonoBehaviour:
   - {fileID: 678829819}
   - {fileID: 678829816}
   - {fileID: 678829831}
+  - {fileID: 678829834}
+  - {fileID: 678829833}
   - {fileID: 678829827}
   - {fileID: 678829826}
   - {fileID: 678829814}
@@ -4639,7 +4649,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5272b0277bb87e54a80e019d15e94135, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4717,7 +4727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 158
   indentLevel: 0
-  storyText: '{i}Everybody bursts out in joyous laughter..'
+  storyText: '{i}Everybody looks at eachother before bursting out in joyous laughter..'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4802,7 +4812,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5272b0277bb87e54a80e019d15e94135, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5066,7 +5076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: 'Ohohoho {w=0.5} no way! '
+  storyText: Ohohoho {w=0.5} no {w=0.5} way! That's something you don't see everyday.
   description: 
   character: {fileID: 876109713}
   portrait: {fileID: 21300000, guid: 8c30a22023b7a8e4c96a391a28e74b5e, type: 3}
@@ -5189,8 +5199,90 @@ MonoBehaviour:
   itemId: 171
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 5272b0277bb87e54a80e019d15e94135, type: 3}
-  volume: 0.2
+  volume: 0.126
   loop: 1
+--- !u!114 &678829833
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  storyText: Woof Woof!
+  description: 
+  character: {fileID: 641589087}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 39798efa3462ff94a8db9770630a69c8, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &678829834
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 0
+  storyText: Of course you can, isn't that right boy?
+  description: 
+  character: {fileID: 117663451}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 39798efa3462ff94a8db9770630a69c8, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &678829835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 0
+  storyText: '{i}Peter''s elation is interrupted by a cacophany of frantic footsteps
+    coming from the stairwell.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8acd18a4ca618f540b8a57035c1a5f64, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &797493310
 GameObject:
   m_ObjectHideFlags: 0
