@@ -873,7 +873,6 @@ GameObject:
   - component: {fileID: 678829715}
   - component: {fileID: 678829713}
   - component: {fileID: 678829707}
-  - component: {fileID: 678829703}
   - component: {fileID: 678829681}
   - component: {fileID: 678829680}
   - component: {fileID: 678829682}
@@ -1026,6 +1025,19 @@ GameObject:
   - component: {fileID: 678829834}
   - component: {fileID: 678829833}
   - component: {fileID: 678829774}
+  - component: {fileID: 678829838}
+  - component: {fileID: 678829837}
+  - component: {fileID: 678829836}
+  - component: {fileID: 678829839}
+  - component: {fileID: 678829844}
+  - component: {fileID: 678829843}
+  - component: {fileID: 678829842}
+  - component: {fileID: 678829841}
+  - component: {fileID: 678829840}
+  - component: {fileID: 678829703}
+  - component: {fileID: 678829846}
+  - component: {fileID: 678829845}
+  - component: {fileID: 678829847}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1288,7 +1300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 32.673996
     y: 109.24649
-    width: 176.92297
+    width: 171.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1301,6 +1313,7 @@ MonoBehaviour:
   - {fileID: 678829691}
   - {fileID: 678829692}
   - {fileID: 678829696}
+  - {fileID: 678829843}
   - {fileID: 678829695}
   - {fileID: 678829698}
   - {fileID: 678829690}
@@ -1730,12 +1743,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 678829678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 678829713}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
+  itemId: 186
+  indentLevel: 0
+  duration: 1.5
+  fadeOut: 1
+  targetView: {fileID: 360040530}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!114 &678829704
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1888,7 +1911,7 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   storyText: '{i}Peter''s frustration dissipates into defeat as he slumps onto the
-    ground.'
+    ground, dazed and exhausted.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1997,17 +2020,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 56.550247
+    x: 67.264534
     y: 13.304406
-    width: 128.84608
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1
   blockName: Peter in room
   description: 
-  eventHandler: {fileID: 678829703}
+  eventHandler: {fileID: 678829847}
   commandList:
+  - {fileID: 678829844}
   - {fileID: 678829693}
   - {fileID: 678829681}
   - {fileID: 678829682}
@@ -2061,11 +2085,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 274.84018, y: 61.92765}
+  scrollPos: {x: 625.9478, y: 384.6337}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.52000046
+  zoom: 0.28
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2073,9 +2097,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 678829776}
+  - {fileID: 678829713}
   selectedCommands:
-  - {fileID: 678829771}
+  - {fileID: 678829844}
   variables: []
   description: 
   stepPause: 0
@@ -2313,9 +2337,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: '{i}Peter''s eyes dart upward towards the podium. He notices Titus sitting
-    at the edge, glaring with disdain. Peter''s fists clench tighter than ever before
-    as his blood begins to boil.'
+  storyText: '{i}Peter''s eyes dart upward towards the podium. He notices what appears
+    to be Titus sitting at the edge, glaring with disdain. Peter''s fists clench
+    tighter than ever before as his blood begins to boil.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2544,7 +2568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: Tch. At this rate you'll never learn to control your powers.
+  storyText: Tch. At this rate you'll never learn to control your powers in time.
   description: 
   character: {fileID: 270528874}
   portrait: {fileID: 0}
@@ -3538,7 +3562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: No, stop. It's me.  {w=0.5} I'm in control now, not Hades. I'm not as
+  storyText: No, stop! It's me.  {w=0.5} I'm in control now, not Hades. I'm not as
     weak as you think, old man.
   description: 
   character: {fileID: 117663451}
@@ -3566,7 +3590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: EVERYONE STAND BACK! It's Hades. Peter's been possessed!
+  storyText: Peter? What is the meaning of this madness??
   description: 
   character: {fileID: 548368494}
   portrait: {fileID: 0}
@@ -3704,9 +3728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25.11472
+    x: 29.11472
     y: 204.8072
-    width: 198.0768
+    width: 192.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3715,7 +3739,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 678829842}
   - {fileID: 678829775}
+  - {fileID: 678829845}
+  - {fileID: 678829771}
   - {fileID: 678829780}
   - {fileID: 678829773}
   - {fileID: 678829769}
@@ -3723,7 +3750,7 @@ MonoBehaviour:
   - {fileID: 678829772}
   - {fileID: 678829758}
   - {fileID: 678829768}
-  - {fileID: 678829771}
+  - {fileID: 678829846}
   - {fileID: 678829791}
   - {fileID: 678829770}
   - {fileID: 678829785}
@@ -3748,6 +3775,7 @@ MonoBehaviour:
   - {fileID: 678829800}
   - {fileID: 678829804}
   - {fileID: 678829803}
+  - {fileID: 678829841}
   - {fileID: 678829812}
   - {fileID: 678829798}
   - {fileID: 678829797}
@@ -3821,20 +3849,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  display: 1
+  display: 3
   stage: {fileID: 0}
   character: {fileID: 87642046}
-  replacedCharacter: {fileID: 0}
+  replacedCharacter: {fileID: 548368494}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
   offset: 0
-  fromPosition: {fileID: 160673015}
-  toPosition: {fileID: 1005251397}
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
 --- !u!114 &678829781
@@ -4078,7 +4106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
-  storyText: I guess I can use my powers now huh?
+  storyText: I guess that's it then huh? I can control my powers now!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -4170,9 +4198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -103.259705
+    x: -100.759705
     y: 266.9354
-    width: 107.69226
+    width: 107.14285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4190,6 +4218,7 @@ MonoBehaviour:
   - {fileID: 678829828}
   - {fileID: 678829774}
   - {fileID: 678829815}
+  - {fileID: 678829836}
   suppressAllAutoSelections: 0
 --- !u!114 &678829796
 MonoBehaviour:
@@ -4207,7 +4236,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.21646
     y: 262.6833
-    width: 76.92305
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4228,6 +4257,7 @@ MonoBehaviour:
   - {fileID: 678829827}
   - {fileID: 678829826}
   - {fileID: 678829814}
+  - {fileID: 678829837}
   suppressAllAutoSelections: 0
 --- !u!114 &678829797
 MonoBehaviour:
@@ -5246,7 +5276,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 39798efa3462ff94a8db9770630a69c8, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5283,6 +5313,271 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &678829836
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 179
+  indentLevel: 0
+  targetFlowchart: {fileID: 678829715}
+  targetBlock: {fileID: 678829838}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &678829837
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 178
+  indentLevel: 0
+  targetFlowchart: {fileID: 678829715}
+  targetBlock: {fileID: 678829838}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &678829838
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 85.67827
+    y: 368.1288
+    width: 96.42857
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 177
+  blockName: Scene 4
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 678829840}
+  - {fileID: 678829703}
+  - {fileID: 678829839}
+  suppressAllAutoSelections: 0
+--- !u!114 &678829839
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 180
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene 4
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &678829840
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 185
+  indentLevel: 0
+--- !u!114 &678829841
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 184
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &678829842
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 183
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &678829843
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 182
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &678829844
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 181
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
+--- !u!114 &678829845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 188
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 548368494}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 381540b2e6a735341a7c13f348a4c3d8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 160673015}
+  toPosition: {fileID: 1005251397}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 1
+--- !u!114 &678829846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 187
+  indentLevel: 0
+  storyText: EVERYONE STAND BACK! Peter's been possessed by Hades. Let me handle
+    this.
+  description: 
+  character: {fileID: 548368494}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: dd23b9bc8a2ab1947a427414b77085d0, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &678829847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 678829713}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &797493310
 GameObject:
   m_ObjectHideFlags: 0
