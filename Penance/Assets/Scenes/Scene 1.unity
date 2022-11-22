@@ -1445,10 +1445,6 @@ GameObject:
   - component: {fileID: 605484568}
   - component: {fileID: 605484564}
   - component: {fileID: 605484565}
-  - component: {fileID: 605484562}
-  - component: {fileID: 605484563}
-  - component: {fileID: 605484561}
-  - component: {fileID: 605484560}
   - component: {fileID: 605484559}
   - component: {fileID: 605484558}
   - component: {fileID: 605484571}
@@ -1514,6 +1510,10 @@ GameObject:
   - component: {fileID: 605484625}
   - component: {fileID: 605484507}
   - component: {fileID: 605484628}
+  - component: {fileID: 605484631}
+  - component: {fileID: 605484630}
+  - component: {fileID: 605484561}
+  - component: {fileID: 605484560}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1534,21 +1534,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 423.05954, y: 16.489721}
+  scrollPos: {x: 363.1233, y: 407.98355}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.34000045
+  blockViewHeight: 578
+  zoom: 0.37000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 605484577}
-  selectedCommands:
-  - {fileID: 605484585}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1574,7 +1572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: ...... {w=2}
+  storyText: ...
   description: 
   character: {fileID: 1754614738}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -1601,7 +1599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 73
+    x: 64.17649
     y: 70
     width: 240
     height: 40
@@ -1706,7 +1704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: '*Phew* {w=1} Here we go.'
+  storyText: '*Phew*. {w=1}Here we go.'
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
@@ -1733,7 +1731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'N - No I know. I''m fine don''t worry. '
+  storyText: 'N - No I know. I''m fine, don''t worry. '
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
@@ -1760,7 +1758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: It's okay to be nervous Peter. Just know that with the Crusaders, you're
+  storyText: It's okay to be nervous Peter. Just know that with the Crusaders you're
     in good hands.
   description: 
   character: {fileID: 1754614738}
@@ -1788,7 +1786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Yeah, don't sweat it alright? You got this Pete.
+  storyText: Yeah. Don't sweat it alright? You got this Pete.
   description: 
   character: {fileID: 2105636491}
   portrait: {fileID: 21300000, guid: 8c30a22023b7a8e4c96a391a28e74b5e, type: 3}
@@ -1815,7 +1813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: '{i} The large dark room is illuminated in a warm orange glow as torches
+  storyText: '{i}The large dark room is illuminated in a warm orange glow as torches
     on the adjacent walls light up one by one, revealing an enormous concrete chamber.'
   description: 
   character: {fileID: 0}
@@ -1843,9 +1841,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 141.64372
+    x: 135.76137
     y: 172.74118
-    width: 102.9411
+    width: 109.45939
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1864,6 +1862,7 @@ MonoBehaviour:
   - {fileID: 605484521}
   - {fileID: 605484522}
   - {fileID: 605484527}
+  - {fileID: 605484631}
   - {fileID: 605484526}
   - {fileID: 605484534}
   - {fileID: 605484532}
@@ -1888,8 +1887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Welcome, Peter. This will be our impromptu training facility, where
-    you will learn to control and strengthen your ability.
+  storyText: Welcome Peter. Right now, you are standing in our impromptu training
+    facility. Here you will learn to control and strengthen your ability.
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 0}
@@ -1967,8 +1966,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: ' Your connection to Hades, and the powers he imbued within you should
-    not be seen as a curse.'
+  storyText: Your connection to Hades and the powers he imbued within you should
+    not be seen as a curse,
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 0}
@@ -1995,7 +1994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: 'But rather a blessing, as you and you alone are the key to stopping
+  storyText: 'but rather a blessing, as you and you alone are the key to stopping
     the Oni invasion, '
   description: 
   character: {fileID: 1671414034}
@@ -2023,7 +2022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: '*whispers* Come on Pete, keep it together. We talked about this.'
+  storyText: '*whispers* {i}Come on Pete, keep it together. We talked about this.'
   description: 
   character: {fileID: 2105636491}
   portrait: {fileID: 21300000, guid: 8c30a22023b7a8e4c96a391a28e74b5e, type: 3}
@@ -2078,7 +2077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: I ... I um-
+  storyText: I - I um-
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
@@ -2186,7 +2185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: ... For mother....
+  storyText: '{i}*Peter pauses briefly and looks down at his now clenched fist*.'
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
@@ -2213,7 +2212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: .....  {w=1.2} See ya around Peter. You got this.
+  storyText: '{w=1.2} See ya around Peter. You got this.'
   description: 
   character: {fileID: 2105636491}
   portrait: {fileID: 0}
@@ -2240,9 +2239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 115.008545
-    y: 257.07538
-    width: 152.94104
+    x: 112.067375
+    y: 254.13419
+    width: 166.21606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2252,6 +2251,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 605484528}
+  - {fileID: 605484630}
   - {fileID: 605484590}
   - {fileID: 605484592}
   - {fileID: 605484547}
@@ -2318,7 +2318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: Yes, father.
+  storyText: Yes father.
   description: 
   character: {fileID: 1754614738}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -2345,7 +2345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: You and Abel may both leave.
+  storyText: You and Abel may both leave now. Go.
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 0}
@@ -2400,7 +2400,7 @@ MonoBehaviour:
   itemId: 38
   indentLevel: 0
   storyText: 'A ''Demonic exhumation''. That''s what happened to you. That ''fire''
-    you mentioned was Hades'' power within you, and at that exact moment, it consumed
+    you mentioned was Hades'' power within you, and at that exact moment it consumed
     you and took control, albeit briefly. '
   description: 
   character: {fileID: 1671414034}
@@ -2429,8 +2429,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 126.4622
-    y: 344.6855
-    width: 126.47049
+    y: 347.62665
+    width: 136.48639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2528,7 +2528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: It felt like an intense fire within me was ready to burst out at any
+  storyText: It felt like an intense fire from within was ready to burst out at any
     moment. And when it did, I lost all control.
   description: 
   character: {fileID: 1885395649}
@@ -2584,7 +2584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: Well for starters i could only see the dirt, considering I was getting
+  storyText: Well for starters I could only see the dirt, considering I was getting
     my ass beat at the time.
   description: 
   character: {fileID: 1885395649}
@@ -2666,7 +2666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: '{w=0.5} Now then. Peter....'
+  storyText: '{w=0.5} Now then. Peter.'
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 0}
@@ -2801,7 +2801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: Nevertheless, it was enough to create a gateway to the Otherworld, allowing
+  storyText: Nevertheless it was enough to create a gateway to the Otherworld, allowing
     he and the Oni to attack.
   description: 
   character: {fileID: 1671414034}
@@ -2829,9 +2829,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 140.8242
+    x: 137.88303
     y: 440.44452
-    width: 111.764626
+    width: 117.56748
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2848,16 +2848,14 @@ MonoBehaviour:
   - {fileID: 605484566}
   - {fileID: 605484565}
   - {fileID: 605484564}
-  - {fileID: 605484563}
-  - {fileID: 605484562}
   - {fileID: 605484561}
-  - {fileID: 605484560}
   - {fileID: 605484559}
   - {fileID: 605484616}
   - {fileID: 605484558}
   - {fileID: 605484574}
   - {fileID: 605484573}
   - {fileID: 605484570}
+  - {fileID: 605484560}
   - {fileID: 605484572}
   - {fileID: 605484617}
   - {fileID: 605484594}
@@ -2898,7 +2896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: .... Very well. Step forward.
+  storyText: '{w=1.2}Very well. Step forward.'
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 0}
@@ -2925,7 +2923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: '{i} Peter steps towards the center of the room, dwarfed by Titus, who
+  storyText: '{i}Peter steps towards the center of the room, dwarfed by Titus, who
     is standing at the far end, observing intently.'
   description: 
   character: {fileID: 0}
@@ -3036,7 +3034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: Huh.... at this point, nothing would surprise me anymore.
+  storyText: Huh. At this point nothing would surprise me anymore.
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3115,12 +3113,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 67
+  itemId: 140
   indentLevel: 0
-  storyText: '{i} Erupt in violent fashion.'
+  storyText: Try again.
   description: 
-  character: {fileID: 1885395649}
-  portrait: {fileID: 0}
+  character: {fileID: 1671414034}
+  portrait: {fileID: 21300000, guid: 381540b2e6a735341a7c13f348a4c3d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3142,63 +3140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 139
   indentLevel: 0
-  storyText: '.... {w=0.8} '
-  description: 
-  character: {fileID: 1885395649}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &605484562
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605484503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 64
-  indentLevel: 0
-  storyText: '{i} Course through like a stream of fire.'
-  description: 
-  character: {fileID: 1885395649}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &605484563
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605484503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 65
-  indentLevel: 0
-  storyText: '.... {w=0.8} '
+  storyText: ...
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3225,7 +3169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: '{i} A single point.'
+  storyText: '{i}Focus all energy into a single point, {w=1.2}feel it course through
+    like a stream of fire,{w=1.2} and let it erupt. Got it.'
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3252,7 +3197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: ......... {w=0.5}
+  storyText: ...
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3279,7 +3224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: .... {w=0.5}
+  storyText: '{i}*Peter looks down and enters a state of intense concentration* {w=0.5}'
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3392,7 +3337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: Tch. On your feet boy. That will never do. {w=0.2} Try again.
+  storyText: '*Tch*. On your feet boy. That will never do.'
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 21300000, guid: 381540b2e6a735341a7c13f348a4c3d8, type: 3}
@@ -3449,7 +3394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: '..... {w=1.2} '
+  storyText: '{w=1.2} Alright. One more time.'
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3476,7 +3421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: Ouch! {w=0.2} Goddammit.
+  storyText: Ouch! {w=0.2}Goddammit.
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3503,8 +3448,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: '{i} The ball of energy in front of Peter implodes on itself before
-    bursting, sending him toppling onto the ground.'
+  storyText: '{i} *The ball of energy in front of Peter implodes on itself before
+    bursting, sending him toppling onto the ground*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3532,7 +3477,8 @@ MonoBehaviour:
   itemId: 89
   indentLevel: 0
   storyText: I grow weary of your incompetence, boy. Now get up and try it again!
-    As you said, the world doesn't have time to wait.
+    You even said it yourself. The world doesn't have time to wait for you to get
+    this right.
   description: 
   character: {fileID: 1671414034}
   portrait: {fileID: 21300000, guid: 381540b2e6a735341a7c13f348a4c3d8, type: 3}
@@ -3584,9 +3530,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 142.0488
-    y: 517.1841
-    width: 111.764626
+    x: 136.16644
+    y: 514.2429
+    width: 120.27019
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3702,7 +3648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: ....
+  storyText: ...
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -3783,7 +3729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: Peter...
+  storyText: Peter. {i}*Crystal look on towards Peter with concern*.
   description: 
   character: {fileID: 1754614738}
   portrait: {fileID: 0}
@@ -3891,7 +3837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: '{w=0.5} ........ {w=0.5}'
+  storyText: '{w=0.5} ... {w=0.5}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4291,7 +4237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: Peter!!!
+  storyText: Peter no!!!
   description: 
   character: {fileID: 1754614738}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -4318,7 +4264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: And it's ... {w=0.4} PISSING ME OFF!
+  storyText: And it's {w=0.4}PISSING ME OFF!
   description: 
   character: {fileID: 1885395649}
   portrait: {fileID: 0}
@@ -4345,7 +4291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  storyText: You know, for someone who's supposed to be helping me, you're talking
+  storyText: You know, for someone who's supposed to be helping me you're talking
     a whole lot of shit!
   description: 
   character: {fileID: 1885395649}
@@ -4418,7 +4364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: '{w=1.2} F - father, please. Just leave him be.'
+  storyText: '{w=1.2} F - father please. Just leave him be.'
   description: 
   character: {fileID: 1754614738}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -4445,7 +4391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: '{i} Overwhelmed with emotion, Peter rushes out of the room.'
+  storyText: '{i}Overwhelmed with emotion, Peter rushes out of the room.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4570,8 +4516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 0
-  storyText: '{i} Peter is engulfed with an intense blaze and his eyes glow white,
-    before releasing a fiery explosion, sending a shockwave in all directions.'
+  storyText: '{i} *Peter is engulfed with an intense blaze and his eyes glow white
+    before releasing a fiery explosion, sending a shockwave in all directions*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4612,7 +4558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: ' {i} Crystal is sent tumbling to the ground.'
+  storyText: ' {i} *Crystal is sent tumbling to the ground vioently*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4639,7 +4585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: This is the Place.
+  storyText: This is the place.
   description: 
   character: {fileID: 1754614738}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -4809,7 +4755,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.03462
     y: 592.83923
-    width: 91.176414
+    width: 101.35129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4930,6 +4876,61 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &605484630
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605484503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  storyText: '{i}*Abel pats Peter on the shoulder before making his way out with
+    Crystal*.'
+  description: 
+  character: {fileID: 2105636491}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &605484631
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605484503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  storyText: For mother.
+  description: 
+  character: {fileID: 1885395649}
+  portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &626731306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6717,8 +6718,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 349068032}
   m_HandleRect: {fileID: 349068031}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.7137365
+  m_Value: 0.9999998
+  m_Size: 0.6645368
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7648,7 +7649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.299978, y: 0}
+  m_AnchoredPosition: {x: 14.300059, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1729162087
