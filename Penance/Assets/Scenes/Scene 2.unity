@@ -1061,7 +1061,6 @@ GameObject:
   - component: {fileID: 1640954543}
   - component: {fileID: 1640954542}
   - component: {fileID: 1640954541}
-  - component: {fileID: 1640954545}
   - component: {fileID: 1640954546}
   - component: {fileID: 1640954547}
   - component: {fileID: 1640954548}
@@ -1097,6 +1096,8 @@ GameObject:
   - component: {fileID: 1640954502}
   - component: {fileID: 1640954578}
   - component: {fileID: 1640954579}
+  - component: {fileID: 1640954581}
+  - component: {fileID: 1640954580}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1192,7 +1193,7 @@ MonoBehaviour:
   itemId: 17
   indentLevel: 0
   storyText: Why me? {w=0.4} Why do I have to be the one to go through all this?
-    I  barely know what's going on!
+    I barely know what's going on!
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -1246,7 +1247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: '{w=0.4} I didn''t... {w=0.6} I didn''t ask for any of this!'
+  storyText: '{w=0.4} I didn''t -{w=0.6} I didn''t ask for any of this!'
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -1300,7 +1301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: '{w=1}.....'
+  storyText: '{w=1}...'
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -1327,9 +1328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: .....
+  storyText: '*Tears begin streaming down Peter''s face as he cries in anguish*.'
   description: 
-  character: {fileID: 583876948}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1356,7 +1357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.550247
     y: 14.015868
-    width: 134
+    width: 122.60276
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1374,7 +1375,6 @@ MonoBehaviour:
   - {fileID: 1640954579}
   - {fileID: 1640954541}
   - {fileID: 1640954505}
-  - {fileID: 1640954545}
   - {fileID: 1640954504}
   - {fileID: 1640954506}
   - {fileID: 1640954515}
@@ -1397,8 +1397,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 55.75082
-    y: 115.36783
-    width: 138
+    y: 119.36783
+    width: 126.71235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1413,6 +1413,7 @@ MonoBehaviour:
   - {fileID: 1640954519}
   - {fileID: 1640954517}
   - {fileID: 1640954524}
+  - {fileID: 1640954581}
   - {fileID: 1640954547}
   - {fileID: 1640954552}
   - {fileID: 1640954525}
@@ -1424,6 +1425,7 @@ MonoBehaviour:
   - {fileID: 1640954548}
   - {fileID: 1640954576}
   - {fileID: 1640954535}
+  - {fileID: 1640954580}
   - {fileID: 1640954522}
   - {fileID: 1640954526}
   suppressAllAutoSelections: 0
@@ -1440,11 +1442,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 946.57654, y: 257.04688}
+  scrollPos: {x: 112.22793, y: 117.67589}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 0.7299998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1452,9 +1454,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1640954521}
-  selectedCommands:
-  - {fileID: 1640954538}
+  - {fileID: 1640954573}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1551,7 +1552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Look at me...
+  storyText: Look at me Peter.
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -1578,7 +1579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: C - {w=0.3} Crystal. {w=0.3} About earlier, I - {w=1}
+  storyText: C - {w=0.3}Crystal.{w=0.3} About earlier, I um- {w=1}
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -1605,8 +1606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: '{i} The door behind Peter slowly opens, revealing a concerned Crystal,
-    who then enters.'
+  storyText: '{i}*The door behind Peter slowly opens, revealing a concerned Crystal,
+    who then enters*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1633,7 +1634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: '{w=1} Hey. {w=0.6} How are you feeling?'
+  storyText: '{w=1}Hey.{w=0.6} How are you feeling?'
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -1692,7 +1693,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -172.67021
     y: 168.58745
-    width: 190
+    width: 169.17812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1747,8 +1748,8 @@ MonoBehaviour:
   itemId: 27
   indentLevel: 0
   storyText: What happened earlier wasn't your fault. Father shouldn't have been
-    as antagonistic as he was ahd he knows it. It wasn't right. To put you through
-    that much that quick, he-
+    as antagonistic as he was and he knows it. It wasn't right. To put you through
+    that much that quickly, he-
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -1775,7 +1776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: No, {w=0.3} please don't worry about it. I'm okay.
+  storyText: No. {w=0.3}Please don't worry about it. I'm fine.
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -1854,7 +1855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: '{w=1} Right now, you''re the only thing that matters to me.'
+  storyText: '{w=1}Right now, you''re the only thing that matters to me.'
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -1909,7 +1910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: .... {w=0.6} Peter, I...
+  storyText: '{w=0.6}Peter, I -'
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -1979,8 +1980,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 51.458416
-    y: 234.76117
-    width: 158
+    y: 233.39131
+    width: 145.89044
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2015,7 +2016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146.75522
     y: 335.4249
-    width: 74
+    width: 73.287674
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2047,7 +2048,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 18.266052
     y: 333.08203
-    width: 78
+    width: 71.917816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2077,7 +2078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: Crystal...
+  storyText: Crystal.
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -2104,7 +2105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: I shouldn't have lost control like that. There was no excuse.
+  storyText: I shouldn't have lost control like that. I'm sorry.
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -2133,7 +2134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.44032
     y: 172.7307
-    width: 230
+    width: 197.94525
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2162,7 +2163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: '{w=0.7} You mean a lot to me too.'
+  storyText: '{w=0.7}You mean a lot to me too.'
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -2263,7 +2264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: Peter... I know nothing I say could make this any easier for you. {w=0.6}
+  storyText: Peter, I know nothing I say could make this any easier for you.{w=0.6}
     I can't even imagine how much you've been through already.
   description: 
   character: {fileID: 1804293672}
@@ -2291,7 +2292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: I don't know what I'm supposed to do. {w=0.3} I'm just... {w=1} so scared.
+  storyText: I don't know what I'm supposed to do. {w=0.3} I'm just... {w=1}so scared.
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -2329,33 +2330,6 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1640954545
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640954500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 49
-  indentLevel: 0
-  storyText: ...... {w=0.8}
-  description: 
-  character: {fileID: 583876948}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
@@ -2400,7 +2374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: Peter look, {w=0.8} your hands, {w=0.8} they're bleeding.
+  storyText: Peter look.{w=0.8} Your hands -{w=0.8} they're bleeding.
   description: 
   character: {fileID: 1804293672}
   portrait: {fileID: 0}
@@ -2455,7 +2429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: I know, but...
+  storyText: I know, but -
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -2482,7 +2456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: '{w=0.6} Thank you. {w=0.6}  I''m glad to have people like you around.'
+  storyText: '{w=0.6}Thank you.{w=0.6}  I''m glad to have people like you around.'
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -2509,7 +2483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: '{i}She grabs both his shoulders, before looking him in the eyes reassuredly.'
+  storyText: '{i}*She grabs both his shoulders and looks him in the eyes reassuredly*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2536,9 +2510,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: '{i} Crystal gently clasps her hands around Peter''s wrists, examining
+  storyText: '{i}*Crystal gently clasps her hands around Peter''s wrists, examining
     his bloodied knuckles. Although he tries hiding it at first, Peter winces from
-    the pain.'
+    the pain*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2565,7 +2539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: '{w=0.3} !?'
+  storyText: '{w=0.3}{i}!?'
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -2592,9 +2566,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: '{i} Peter and Crystal lock eyes for a moment. They slowly lean in and
-    their lips touch. {w=0.4} A single tear streams down Peter''s cheek, {w=0.2}
-    and is wiped away by Crystal, as she gently embraces his face with her  hand.'
+  storyText: '{i}*Peter and Crystal lock eyes for a moment. They slowly lean in and
+    their lips touch. {w=0.4} A single tear streams down Peter''s cheek {w=0.2} and
+    is wiped away by Crystal, as she gently embraces his face with her hand*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2698,8 +2672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: '{i} Peter frees himself from her grip and looks away, unable to look
-    Crystal in the eyes out of shame and guilt.'
+  storyText: '{i}*Peter frees himself from her grip and looks away, unable to look
+    Crystal in the eyes out of shame and guilt*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2751,8 +2725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: '{i} Peter leans in with outstretched arms. A single tear streams down
-    his face as he is solaced by Crystal''s warm embrace.'
+  storyText: '{i}*Peter leans in with outstretched arms. A single tear streams down
+    his face as he is solaced by Crystal''s warm embrace*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2779,8 +2753,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: '{i} Crystal looks at Peter briefly, before shifting her gaze downward,
-    able to manage a weak, fleeting smile.'
+  storyText: '{i}*Crystal looks at Peter briefly, before shifting her gaze downward,
+    able to manage a weak, fleeting smile*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2832,7 +2806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: '{w=2.2} Thank you.'
+  storyText: '{w=2.2}Thank you.'
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -3004,7 +2978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: I'm not strong enough... {w=0.8} and because of me, Crystal...
+  storyText: I wasn't strong enough, {w=0.8} and because of me, Crystal, she -
   description: 
   character: {fileID: 583876948}
   portrait: {fileID: 0}
@@ -3031,8 +3005,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: '{i} Crystal manages a weak smile, as if she knew the emptiness of those
-    words.'
+  storyText: '{i}Crystal manages a weak smile, knowing that her words rang hollow
+    upon Peter''s ears.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3103,7 +3077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71.97217
     y: 445.1596
-    width: 102
+    width: 96.575356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3224,6 +3198,60 @@ MonoBehaviour:
   volume: 0.816
   fadeDuration: 1
   waitUntilFinished: 1
+--- !u!114 &1640954580
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640954500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 583876948}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1640954581
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640954500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 1804293672}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1647098129
 GameObject:
   m_ObjectHideFlags: 0

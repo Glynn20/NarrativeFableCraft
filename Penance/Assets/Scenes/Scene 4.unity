@@ -1575,7 +1575,6 @@ GameObject:
   - component: {fileID: 2002746330}
   - component: {fileID: 2002746329}
   - component: {fileID: 2002746328}
-  - component: {fileID: 2002746327}
   - component: {fileID: 2002746326}
   - component: {fileID: 2002746325}
   - component: {fileID: 2002746324}
@@ -1904,8 +1903,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: '{i}Following Peter''s recent achievements, the Crusaders decide to
-    celebrate with a banquet...'
+  storyText: '{i}*Following Peter''s recent achievements, the Crusaders decide to
+    celebrate with a banquet*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1932,8 +1931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: '{i}A sea of jovial voices, clinking mugs  and an uproar of laughter
-    submerges the room in loud yet calming bliss.'
+  storyText: '{i}*A sea of jovial voices, clinking mugs and an uproar of laughter
+    submerges the room in loud yet calming bliss*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2069,7 +2068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Almost...
+  storyText: Almost.
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -2125,7 +2124,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 38.620373
     y: 108.54909
-    width: 169.35468
+    width: 186.53835
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2231,9 +2230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: '{i}Off to the side, Peter notices Titus and Crystal making their way
+  storyText: '{i}*Off to the side, Peter notices Titus and Crystal making their way
     to the table, each carrying a plate of food and a mug filled to the brim with
-    beer.'
+    beer*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2260,7 +2259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: Ahahaha. As long as everyone's having a good time.
+  storyText: Ahahaha. As long as everybody's having a good time.
   description: 
   character: {fileID: 1762831609}
   portrait: {fileID: 0}
@@ -2384,7 +2383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: '{i}zzzZ'
+  storyText: '{i}*zzzZ*.'
   description: 
   character: {fileID: 74492856}
   portrait: {fileID: 0}
@@ -2438,8 +2437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: '{i}Crystal takes a seat next to Peter, but not before noticing his
-    wolf laying calmly beside him.'
+  storyText: '{i}*Crystal takes a seat next to Peter, but not before noticing his
+    wolf laying calmly beside him*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2493,8 +2492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: ... {w=0.7} I see you've been enjoying our selection of beer a little
-    {w=0.5} too much.
+  storyText: '{w=0.7}I see you''ve been enjoying our selection of beer a little {w=0.5}too
+    much.'
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -2521,7 +2520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: '{i}They both dig in to their food, making the most of their brief respite.'
+  storyText: '{i}*They both dig in to their food, making the most of their brief
+    respite*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2569,7 +2569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: To Peter! For his recent achievements, his perseverance, and his  determination
+  storyText: To Peter! For his recent achievements, perseverance, and his determination
     these past few days. Raise your glass! To new hope!
   description: 
   character: {fileID: 361760344}
@@ -2597,9 +2597,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 63.6939
+    x: 61.770824
     y: 211.46332
-    width: 127.41924
+    width: 140.38454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2645,7 +2645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68.34986
     y: 0.6489613
-    width: 114.51604
+    width: 126.92301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2719,11 +2719,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 256.8016, y: 106.91003}
+  scrollPos: {x: 64.301926, y: 228.91449}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 284
-  zoom: 0.31000045
+  zoom: 0.52000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2831,7 +2831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: Alright, {w=0.4} then it's settled. Blanco it is!
+  storyText: Alright{w=0.4} then it's settled. Blanco it is!
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -2939,7 +2939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: ...{w=1} What about Blanco?
+  storyText: '{w=1}How about Blanco?'
   description: 
   character: {fileID: 1762831609}
   portrait: {fileID: 0}
@@ -2966,7 +2966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: Mmm, not yet. I'll have to get back to you on that one.
+  storyText: Hmmm, not yet. I'll have to get back to you on that one.
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -3020,7 +3020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: In fact it might even be worthy of a toast, wouldn't you agree, Crystal?
+  storyText: In fact it might even be worthy of a toast, wouldn't you agree Crystal?
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -3076,7 +3076,7 @@ MonoBehaviour:
   itemId: 55
   indentLevel: 0
   storyText: Hey, don't worry about it old man. What's done is done! How about we
-    focus on enjoying ourselves tonight, while we still can?
+    focus on enjoying ourselves tonight while we still can?
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -3131,8 +3131,8 @@ MonoBehaviour:
   itemId: 53
   indentLevel: 0
   storyText: I'd like to sincerely apologize. Crystal was right. I shouldn't have
-    been so hard on you. I expected too much too quickly from you, and I was too
-    forceful in my approach.
+    been so hard on you. I expected too much too quickly from you, and was too forceful
+    in my approach.
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -3159,8 +3159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: '{i}Before Peter can finish his sentence, Titus rises from his seat
-    and gathers everybody''s attention. He lets out a subtle chuckle.'
+  storyText: '{i}*Before Peter can finish his sentence, Titus rises from his seat
+    and gathers everybody''s attention. He lets out a subtle chuckle*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3187,7 +3187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: Attention everybody, I'd like to make a toast.
+  storyText: Attention everyone! I'd like to make a toast.
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -3214,8 +3214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: From over Titus' shoulder, Peter notices the air rippling violently,
-    giving off a dark blue hue.
+  storyText: '{i}*From over Titus'' shoulder, Peter notices the air rippling violently,
+    giving off a dark blue hue*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3242,8 +3242,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: His eyes widen in horror as the air is seemingly torn in two, and a
-    large rift materialises.
+  storyText: '{i}*His eyes widen in horror as the air is seemingly torn in two, and
+    a large rift materialises*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3351,7 +3351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  storyText: And then {w=0.4}there was one...
+  storyText: And then {w=0.4}there was one.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -3466,7 +3466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: '{w=2}YOU.... {w=0.5} you''ll pay for that!!!'
+  storyText: '{w=2}YOU! {w=0.5} You''ll pay for that!'
   description: 
   character: {fileID: 470611377}
   portrait: {fileID: 21300000, guid: 8c30a22023b7a8e4c96a391a28e74b5e, type: 3}
@@ -3544,7 +3544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: Oh hush now, won't you? I'm only borrowing him for a bit.
+  storyText: Oh hush now won't you? I'm only borrowing him for a bit.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -3625,7 +3625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: Mortal flesh and bone...
+  storyText: Mortal flesh and bone.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -3657,33 +3657,6 @@ MonoBehaviour:
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: b22df9386820efd469646c757f68ec80, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2002746327
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002746253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 78
-  indentLevel: 0
-  storyText: ...
-  description: 
-  character: {fileID: 361760344}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3755,8 +3728,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 49.460724
-    y: 377.69662
-    width: 149.99985
+    y: 381.54276
+    width: 157.69221
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3767,7 +3740,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 2002746278}
   - {fileID: 2002746328}
-  - {fileID: 2002746327}
   - {fileID: 2002746408}
   - {fileID: 2002746326}
   - {fileID: 2002746325}
@@ -3905,7 +3877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: Everybody be careful. The Oni aren't to be trifled with. At any moment
+  storyText: Everybody be vigilant. The Oni aren't to be trifled with. At any moment
     they could -
   description: 
   character: {fileID: 361760344}
@@ -3933,7 +3905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: Don't worry about me! I can handle myself now, isn't that right Blanco?
+  storyText: Don't worry about me! I can handle myself now, ain't that right Blanco?
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -4015,7 +3987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: I... I don't know. Nevermind that right now. The Oni... they're after
+  storyText: I - I don't know. Nevermind that right now. The Oni - they're after
     Peter! Hades must have sniffed him out, and now he's out for blood!
   description: 
   character: {fileID: 361760344}
@@ -4043,8 +4015,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: '{w=1} .... Peter, please be careful. If anything were to happen to
-    you, I - '
+  storyText: '{w=1}Peter, please be careful. If anything were to happen to you, I
+    - '
   description: 
   character: {fileID: 1762831609}
   portrait: {fileID: 0}
@@ -4099,8 +4071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: '{i}One of the Oni sends a ball of fire whizzing past at incredible
-    speeds.'
+  storyText: '{i}*One of the Oni sends a ball of fire whizzing past at incredible
+    speeds*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4154,8 +4126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: As the rift widens, swarms of Oni flood out in all directions and begin
-    circling the Crusaders.
+  storyText: '{i}*As the rift widens, swarms of Oni flood out in all directions and
+    begin circling the Crusaders*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4211,7 +4183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.295074
     y: 299.41214
-    width: 124.19344
+    width: 134.61531
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4344,7 +4316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: ...{w=0.6} Very well.
+  storyText: '{w=0.6}Very well. Have it your way.'
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -4507,7 +4479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 0
-  storyText: My oh my... Is that anyway to talk to your dear old father?
+  storyText: My oh my. Is that any way to talk to your dear old father?
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -4534,7 +4506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: You piece of shit! ... I'll kill you!
+  storyText: You piece of shit! I'll kill you!
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
@@ -4561,7 +4533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: Come closer, {w=0.5}boy...
+  storyText: Come closer, {w=0.5}boy.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -4588,7 +4560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  storyText: Let me get a good look at your face...
+  storyText: Let me get a good look at your face.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -4677,7 +4649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: ...?
+  storyText: '!?'
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -4765,8 +4737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 108
   indentLevel: 0
-  storyText: About the other day, I - {w=1} Crystal and I were discussing what had
-    happened and...
+  storyText: About the other day, I -{w=1} Crystal and I were discussing what had
+    happened.
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -4857,7 +4829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: By the Gods. The Oni are here! But how...
+  storyText: By the Gods. The Oni are here! But how!?
   description: 
   character: {fileID: 1762831609}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -5348,8 +5320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 139
   indentLevel: 0
-  storyText: '{i}After writhing and struggling for a moment, the flames prove too
-    much for Titus, as his shoulders slump, and he becomes unresponsive.'
+  storyText: '{i}*After writhing and struggling for a moment, the flames prove too
+    much for Titus, and as his shoulders slump, he becomes unresponsive*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5376,7 +5348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: '{i}At that instant, Titus is engulfed by a white-hot blaze. '
+  storyText: '{i}*At that instant, Titus is engulfed by a white-hot blaze*. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5403,7 +5375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: 'Tch... {w=0.4}Alright fine! You want me that badly? '
+  storyText: '{w=0.4}Alright fine! You want me that badly? '
   description: 
   character: {fileID: 1179528765}
   portrait: {fileID: 0}
@@ -5520,8 +5492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: '{i}In the blink of an eye, all of the Oni dart their attention straight
-    to Peter, before slowly closing in.'
+  storyText: '{i}*In the blink of an eye, all of the Oni dart their attention straight
+    to Peter, before slowly closing in*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5548,7 +5520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: The whelp. {w=1} End him.
+  storyText: The whelp.{w=1} End him.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -5630,7 +5602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: You know... it's never to late to join me, son. After all, this world
+  storyText: You know - it's never to late to join me, son. After all, this world
     is doomed to be mine.
   description: 
   character: {fileID: 1296813956}
@@ -5716,7 +5688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: A face only a mother could love... {w=0.5}too bad she's dead.
+  storyText: A face only a mother could love.{w=0.5} It's too bad she's dead.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -5824,8 +5796,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  storyText: '{i}Titus'' eyes open. His pupils turn white and begin to glow, as he
-    bursts out in maniacal laughter.'
+  storyText: '{i}*Titus'' eyes open. His pupils turn white and begin to glow as he
+    bursts out in maniacal laughter*.'
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -6106,7 +6078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: I.... What happened?
+  storyText: I - What happened?
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -6220,7 +6192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 178
   indentLevel: 0
-  storyText: Ughhh...
+  storyText: Ughhh.
   description: 
   character: {fileID: 361760344}
   portrait: {fileID: 0}
@@ -6264,8 +6236,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 175
   indentLevel: 0
-  storyText: The fire consuming Titus along with any remaining Oni quickly dissipate,
-    and the rift closes.
+  storyText: '{i}*The fire consuming Titus along with any remaining Oni quickly dissipate,
+    and the rift closes*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6346,7 +6318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 172
   indentLevel: 0
-  storyText: It seems I have have mistaken you.
+  storyText: It seems I have have mistaken you boy.
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -6430,7 +6402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: ....
+  storyText: ...
   description: 
   character: {fileID: 1296813956}
   portrait: {fileID: 0}
@@ -6482,7 +6454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: ughhh..
+  storyText: Ughhh.
   description: 
   character: {fileID: 712093579}
   portrait: {fileID: 0}

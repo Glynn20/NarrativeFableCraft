@@ -1545,7 +1545,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 605484623}
   selectedCommands: []
   variables: []
   description: 
@@ -1813,8 +1814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: '{i}The large dark room is illuminated in a warm orange glow as torches
-    on the adjacent walls light up one by one, revealing an enormous concrete chamber.'
+  storyText: '{i}*The large dark room is illuminated in a warm orange glow as torches
+    on the adjacent walls light up one by one, revealing an enormous concrete chamber*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1842,7 +1843,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 135.76137
-    y: 172.74118
+    y: 170.03848
     width: 109.45939
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2923,8 +2924,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: '{i}Peter steps towards the center of the room, dwarfed by Titus, who
-    is standing at the far end, observing intently.'
+  storyText: '{i}*Peter steps towards the center of the room, dwarfed by Titus, who
+    is standing at the far end, observing intently*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4391,7 +4392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: '{i}Overwhelmed with emotion, Peter rushes out of the room.'
+  storyText: '{i}*Overwhelmed with emotion, Peter rushes out of the room*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6718,8 +6719,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 349068032}
   m_HandleRect: {fileID: 349068031}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.6645368
+  m_Value: 1
+  m_Size: 0.6560093
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

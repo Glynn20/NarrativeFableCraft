@@ -1038,6 +1038,8 @@ GameObject:
   - component: {fileID: 678829846}
   - component: {fileID: 678829845}
   - component: {fileID: 678829847}
+  - component: {fileID: 678829849}
+  - component: {fileID: 678829848}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1086,7 +1088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: ....
+  storyText: ...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1165,8 +1167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  storyText: '{i} He gets out of bed and briskly walks toward the door, before opening
-    it and making a sharp right turn out into the hallway.'
+  storyText: '{i}*He gets out of bed and briskly walks toward the door, before opening
+    it and making a sharp right turn out into the hallway*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1193,8 +1195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: '{i} He makes his way through the hallway with an air of determination,
-    being extra cautious so as to not awaken the others.'
+  storyText: '{i}*Making his way through the hallway with an air of determination,
+    Peter is extra cautious so as to not awaken the others*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1221,8 +1223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: '{i} He hurries down the stairwell, jumping two at a time, before arriving
-    at the chamber shortly after.'
+  storyText: '{i}*He hurries down the stairwell jumping two steps at a time, before
+    arriving at the chamber shortly thereafter*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1249,8 +1251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: '{i} Peter awakens after a short, restless sleep in the middle of the
-    night.'
+  storyText: '{i}*Peter awakens after a short, restless sleep in the middle of the
+    night*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1298,9 +1300,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 32.673996
-    y: 109.24649
-    width: 171.42857
+    x: 35.673996
+    y: 108.24649
+    width: 176.59573
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1333,6 +1335,7 @@ MonoBehaviour:
   - {fileID: 678829710}
   - {fileID: 678829709}
   - {fileID: 678829708}
+  - {fileID: 678829849}
   - {fileID: 678829726}
   - {fileID: 678829723}
   - {fileID: 678829722}
@@ -1355,6 +1358,7 @@ MonoBehaviour:
   - {fileID: 678829729}
   - {fileID: 678829730}
   - {fileID: 678829725}
+  - {fileID: 678829848}
   - {fileID: 678829742}
   - {fileID: 678829741}
   - {fileID: 678829740}
@@ -1564,8 +1568,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: '{i}Once again the torches light up one by one, illuminating the chamber
-    in a deep orange glow. Peter stands at the door, pauses for a moment, then enters.'
+  storyText: '{i}*Once again the torches light up one by one, illuminating the chamber
+    in a deep orange glow. Peter stands at the door, pauses for a moment, then enters*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1610,8 +1614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: '{i}With an expression of deep thought and determination, Peter steps
-    towards the middle, his footsteps echoing throughout the warm, empty room.'
+  storyText: '{i}*With an expression of deep thought and determination, Peter steps
+    towards the middle, his footsteps echoing throughout the warm, empty room*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1638,8 +1642,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: '{i}He looks above at the podium where Titus once stood. A sense of
-    resentment builds as Peter clenches his fists in anger.'
+  storyText: '{i}*He looks above at the podium where Titus once stood. A sense of
+    resentment builds as Peter clenches his fists in anger*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1666,7 +1670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: But don't think for  a second that I'm doing it for you old man...
+  storyText: But don't think for a second that I'm doing it for you old man.
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -1693,7 +1697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: If I'm supposed to be the one saving the world.  I'm gonna have to start
+  storyText: If I'm supposed to be the one saving the world, I'm gonna have to start
     acting the part, with or without you.
   description: 
   character: {fileID: 117663451}
@@ -1827,9 +1831,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: '{i} {size=40}Peter sharply inhales, readies his stance, and exhales
+  storyText: '{i} {size=40}*Peter sharply inhales, readies his stance, and exhales
     in a slow, controlled manner. As his focus deepens, he feels the warmth of his
-    breath, the heat of the flickering torches radiating onto his skin.'
+    breath, the heat of the flickering torches radiating onto his skin*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1856,7 +1860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: ....
+  storyText: ...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1883,7 +1887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: '{w=0.8}Pathetic.'
+  storyText: ...
   description: 
   character: {fileID: 136147386}
   portrait: {fileID: 0}
@@ -1910,8 +1914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: '{i}Peter''s frustration dissipates into defeat as he slumps onto the
-    ground, dazed and exhausted.'
+  storyText: '{i}*Peter''s frustration dissipates into defeat as he slumps onto the
+    ground, dazed and exhausted*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1938,7 +1942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: Why. {w=0.4} Can't. {w=0.5} I. {w=0.5} Get. {w=0.5} It. {w=0.5} Right?
+  storyText: Why -{w=0.4} can't -{w=0.5} I -{w=0.5} get -{w=0.5} it -{w=0.5} right!?
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -1992,8 +1996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: '{i}Once again the energy implodes on itself before releasing a sharp
-    shockwave, knocking Peter to the ground.'
+  storyText: '{i}*Once again the energy implodes on itself before releasing a sharp
+    shockwave, knocking Peter to the ground*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2020,9 +2024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67.264534
-    y: 13.304406
-    width: 125
+    x: 56.550243
+    y: 9.732979
+    width: 127.65957
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2085,11 +2089,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 625.9478, y: 384.6337}
+  scrollPos: {x: 44.864357, y: 111.082405}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.28
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2097,9 +2101,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 678829713}
-  selectedCommands:
-  - {fileID: 678829844}
+  - {fileID: 678829838}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2169,7 +2172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: Come on!...
+  storyText: Come on!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -2196,8 +2199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: '{i}After a moment, a ball of white flaming energy builds at the tip
-    of his index finger. The air around him ripples with heat, as the ball intensifies,
+  storyText: '{i}After a brief moment, a ball of white flaming energy builds at the
+    tip of his index finger. The air around him ripples with heat, as the ball intensifies,
     and an encircling ring of embers appear at his feet.'
   description: 
   character: {fileID: 0}
@@ -2283,7 +2286,8 @@ MonoBehaviour:
   itemId: 54
   indentLevel: 0
   storyText: What you said earlier was right Peter. Of all the people tasked with
-    stopping Hades, why on earth did it have to be you? An arrogant, whiny brat.
+    stopping Hades, why on earth did it have to be you? An arrogant, whiny little
+    brat.
   description: 
   character: {fileID: 136147386}
   portrait: {fileID: 0}
@@ -2366,7 +2370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: ...{w=1.5} SHUT UP!
+  storyText: ...
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
@@ -2487,7 +2491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: Loser...
+  storyText: Loser.
   description: 
   character: {fileID: 270528874}
   portrait: {fileID: 0}
@@ -2514,7 +2518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  storyText: Pathetic...
+  storyText: Pathetic.
   description: 
   character: {fileID: 270528874}
   portrait: {fileID: 0}
@@ -2541,7 +2545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: Weak...
+  storyText: Weak.
   description: 
   character: {fileID: 270528874}
   portrait: {fileID: 0}
@@ -2568,7 +2572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 59
   indentLevel: 0
-  storyText: Tch. At this rate you'll never learn to control your powers in time.
+  storyText: At this rate you'll never learn to control your powers in time.
   description: 
   character: {fileID: 270528874}
   portrait: {fileID: 0}
@@ -2852,7 +2856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: '{w=0.5} You want to see power? {w=0.5}Fine.'
+  storyText: '{w=0.5}You want to see power? {w=0.5}Fine.'
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -2879,7 +2883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: If anything, {w=0.5} you're the one who's pathetic!
+  storyText: If anything, {w=0.5}you're the one who's pathetic!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -2906,7 +2910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: To have everyone count on you {w=0.5} only to fail them over and over
+  storyText: To have everyone count on you{w=0.5} only to fail them over and over
     again.
   description: 
   character: {fileID: 117663451}
@@ -2934,7 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: 'Admit it Peter. You''ve failed. You''ve failed me, the Crusaders, mankind,
+  storyText: 'Admit it Peter, you''ve failed. You''ve failed me, the Crusaders, mankind,
     and yourself. '
   description: 
   character: {fileID: 270528874}
@@ -2990,7 +2994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: '{w=1} None of you know what it''s like.'
+  storyText: '{w=1}None of you know what it''s like.'
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -3115,8 +3119,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: '{i}  As he channels his energy, an incredibly intense ball of flame
-    forms around his hands.'
+  storyText: '{i}*As he channels his energy, an incredibly intense ball of flame
+    forms around his hands*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3143,8 +3147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: '{i} Peter''s eyes glow an intense white as his body is engulfed in
-    a searing white-hot inferno. '
+  storyText: '{i}*Peter''s eyes glow with intense radiant energy as his body is engulfed
+    in a searing white-hot inferno*. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3171,8 +3175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: '{i}  It rapidly encircles him as he once again readies his stance and
-    holds both hands in front of him.'
+  storyText: '{i}*It rapidly encircles him as he once again readies his stance and
+    holds both hands in front of him*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3417,7 +3421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: '{i}  Exhausted, yet amazed, Peter takes a step back and laughs triumphantly.'
+  storyText: '{i}*Exhausted, yet amazed, Peter takes a step back and laughs triumphantly*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3444,8 +3448,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: '{i}  The shockwave from the explosions sends tremors throughout the
-    entire building. Bits of debris begin falling from the ceiling.'
+  storyText: '{i}*The shockwave from the explosions sends tremors throughout the
+    entire building. Bits of debris begin falling from the ceiling*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3562,7 +3566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: No, stop! It's me.  {w=0.5} I'm in control now, not Hades. I'm not as
+  storyText: No, stop! It's me.{w=0.5} I'm in control now, not Hades. I'm not as
     weak as you think, old man.
   description: 
   character: {fileID: 117663451}
@@ -3617,7 +3621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 0
-  storyText: What the? Pete? Dude you're... {w=0.5} glowing!
+  storyText: What the? Pete? Dude you're - {w=0.5} glowing!
   description: 
   character: {fileID: 876109713}
   portrait: {fileID: 0}
@@ -3671,7 +3675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 0
-  storyText: Almost like fireflies...
+  storyText: They almost look like fireflies.
   description: 
   character: {fileID: 87642046}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -3730,7 +3734,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 29.11472
     y: 204.8072
-    width: 192.85715
+    width: 194.68085
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3879,7 +3883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: Well... I {w=0.5} don't know really. I guess I feel great!
+  storyText: Well I {w=0.5} don't know really. I guess I feel great!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -3961,7 +3965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 0
-  storyText: ... I - {w=0.5} It would seem so.
+  storyText: I err - {w=0.5} It would seem so.
   description: 
   character: {fileID: 548368494}
   portrait: {fileID: 0}
@@ -3988,7 +3992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  storyText: '{i} Peter lets out a chuckle, before breaking out into laughter.'
+  storyText: '{i}*Peter lets out a chuckle, before breaking out into laughter*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4042,8 +4046,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: And because of your arrogance and lack of self-control, you went as
-    far as to hurt my daughter.
+  storyText: Because of your selfish arrogance and lack of self-control, you went
+    as far as to hurt my daughter.
   description: 
   character: {fileID: 270528874}
   portrait: {fileID: 0}
@@ -4200,7 +4204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -100.759705
     y: 266.9354
-    width: 107.14285
+    width: 107.44681
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4236,7 +4240,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.21646
     y: 262.6833
-    width: 75
+    width: 75.53191
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4323,8 +4327,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 136
   indentLevel: 0
-  storyText: '{i}  Peter hurls the flaming ball at the podium with every ounce of
-    strength he has.'
+  storyText: '{i} *Peter hurls the flaming ball at the podium with every ounce of
+    strength he has*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4351,8 +4355,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 135
   indentLevel: 0
-  storyText: Don't worry about me. I'm fine. {w=0.5} Well, honestly I feel more than
-    fine right now!
+  storyText: Nope. I'm fine old man.{w=0.5} Well to be completely honest, I feel
+    more than fine right now!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -4379,8 +4383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 134
   indentLevel: 0
-  storyText: '{i} Peter is ecstatic and begins laughing uncontrollably. The others
-    can''t help but smile.'
+  storyText: '{i}*Peter is ecstatic and begins laughing uncontrollably. The others
+    can''t help but smile*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4674,8 +4678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: '{i}Peter points both index fingers at a spot on the ground. A small
-    twister of fire immediately follows, before imploding and releasing a small shockwave.'
+  storyText: '{i}*Peter points both index fingers at a spot on the ground. A small
+    twister of fire immediately follows, before imploding and releasing a small shockwave*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4702,7 +4706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  storyText: Wanna see something cool? Check this out!
+  storyText: Hey, wanna see something cool? Check this out!
   description: 
   character: {fileID: 117663451}
   portrait: {fileID: 0}
@@ -4730,7 +4734,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   storyText: Hold on Peter. You're not hurt at all are you? An expendature of that
-    much energy at once could be quite dangerous.
+    much energy at once could be quite taxing.
   description: 
   character: {fileID: 548368494}
   portrait: {fileID: 0}
@@ -4757,7 +4761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 158
   indentLevel: 0
-  storyText: '{i}Everybody looks at eachother before bursting out in joyous laughter..'
+  storyText: '{i}*Everybody looks at eachother before bursting out in joyous laughter*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4784,7 +4788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 0
-  storyText: '{i}Everybody stares in awe, before bursting out in joyous laughter...'
+  storyText: '{i}*Everybody stares in awe, before bursting out in joyous laughter*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4811,7 +4815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: Oh my God! How did you...
+  storyText: Oh my God! How did you-
   description: 
   character: {fileID: 87642046}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -4838,7 +4842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: '{i}Suddenly, a wolf appears in its place, as if from thin air.'
+  storyText: '{i}*Suddenly, a wolf appears in its place, as if from thin air*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5023,8 +5027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: '{i}What follows is an amazing display of sparkling, white glitter filling
-    the room.'
+  storyText: '{i}*What follows is an amazing display of sparkling, white glitter
+    filling the room*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5051,8 +5055,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: '{i}Peter points both index fingers at the ceiling. A small twister
-    of fire immediately follows, before imploding and releasing a small shockwave.'
+  storyText: '{i}*Peter points both index fingers at the ceiling. A small twister
+    of fire immediately follows, before imploding and releasing a small shockwave*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5106,7 +5110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: Ohohoho {w=0.5} no {w=0.5} way! That's something you don't see everyday.
+  storyText: Ohohoho {w=0.5} no {w=0.5} way! Now that's something you don't see everyday.
   description: 
   character: {fileID: 876109713}
   portrait: {fileID: 21300000, guid: 8c30a22023b7a8e4c96a391a28e74b5e, type: 3}
@@ -5133,7 +5137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: Magnificent...
+  storyText: Magnificent.
   description: 
   character: {fileID: 548368494}
   portrait: {fileID: 21300000, guid: 381540b2e6a735341a7c13f348a4c3d8, type: 3}
@@ -5160,7 +5164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  storyText: Peter.... It's beautiful!
+  storyText: Peter it's -{w=0.8} beautiful!
   description: 
   character: {fileID: 87642046}
   portrait: {fileID: 21300000, guid: 3724e6749a685814ba8181e2d9627ee4, type: 3}
@@ -5299,8 +5303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 173
   indentLevel: 0
-  storyText: '{i}Peter''s elation is interrupted by a cacophany of frantic footsteps
-    coming from the stairwell.'
+  storyText: '{i}*Peter''s elation is interrupted by a cacophany of frantic footsteps
+    coming from the stairwell*.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5371,7 +5375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.67827
     y: 368.1288
-    width: 96.42857
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5507,7 +5511,7 @@ MonoBehaviour:
   resumeOnLoad: 1
 --- !u!114 &678829845
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5537,7 +5541,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &678829846
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5565,7 +5569,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &678829847
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5578,6 +5582,60 @@ MonoBehaviour:
   parentBlock: {fileID: 678829713}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &678829848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 190
+  indentLevel: 0
+  storyText: '{w=1.5}SHUT UP!'
+  description: 
+  character: {fileID: 117663451}
+  portrait: {fileID: 21300000, guid: 596aebe2af5e8144d8cd69e95ba62032, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &678829849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678829678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 189
+  indentLevel: 0
+  storyText: '{w=0.8}Pathetic.'
+  description: 
+  character: {fileID: 136147386}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c18ae2c530c264a6880266d5e0a71337, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &797493310
 GameObject:
   m_ObjectHideFlags: 0
